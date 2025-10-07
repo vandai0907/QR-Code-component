@@ -14,17 +14,17 @@
 
     <title>Frontend Mentor | QR code component</title>
     <style>
-      body{
-        background: #D5E1EF;
-        font-family: 'Outfit', sans-serif;
+      body {
+        background: #d5e1ef;
+        font-family: "Outfit", sans-serif;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0;
       }
-      .card{
-        background: #FFFFFF;
+      .card {
+        background: #ffffff;
         border-radius: 15px;
         box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
         width: 360px;
@@ -32,20 +32,20 @@
         padding: 16px;
       }
 
-      .card-image img{
+      .card-image img {
         width: 100%;
         border-radius: 10px;
       }
-      .card-content{
+      .card-content {
         padding: 20px;
       }
-      .card-content h1{
+      .card-content h1 {
         font-size: 22px;
-        color: #1F314F;
+        color: #1f314f;
         line-height: 120%;
         margin: 16px;
       }
-      .card-content p{
+      .card-content p {
         font-size: 14px;
         color: hsl(220, 15%, 55%);
         line-height: 140%;
@@ -53,24 +53,29 @@
         margin: 0;
       }
       @media (max-width: 400px) {
-        .card{
+        .card {
           width: 90%;
         }
       }
     </style>
   </head>
   <body>
-    <div class="card">
-      <div class="card-image">
-        <img src="./images/image-qr-code.png" alt="QR Code" />
-      </div>
+    <header></header>
+    <main>
+      <div class="card">
+        <div class="card-image">
+          <img src="./images/image-qr-code.png" alt="QR Code" />
+        </div>
 
-      <div class="card-content">
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding
-          skills to the next level
-        </p>
-    </div>
+        <div class="card-content">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
